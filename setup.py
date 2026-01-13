@@ -1,7 +1,7 @@
 import os
 
 os.system("sudo apt update && sudo apt install p7zip-full curl wget nginx git -y")
-os.system("wget https://buildbot.libretro.com/stable/1.21.0/emscripten/RetroArch.7z")
+os.system("wget https://buildbot.libretro.com/stable/1.22.2/emscripten/RetroArch.7z")
 os.system("7z x RetroArch.7z")
 os.system("git clone https://github.com/ppeccin/javatari.js")
 os.system("git clone https://github.com/mitxela/swotGB")
