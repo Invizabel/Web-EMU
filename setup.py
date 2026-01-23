@@ -1,6 +1,6 @@
 import os
 
-os.system("sudo apt update && sudo apt install p7zip-full curl wget nginx git npm -y")
+os.system("sudo apt update && sudo apt install p7zip-full curl wget nginx git -y")
 os.system("wget https://raw.githubusercontent.com/Invizabel/Scripts/refs/heads/main/Setup/docker_ubuntu.py")
 os.system("python3 docker_ubuntu.py")
 os.system("wget https://buildbot.libretro.com/stable/1.22.2/emscripten/RetroArch.7z")
