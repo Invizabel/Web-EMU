@@ -16,4 +16,4 @@ os.system("sudo cp -r javatari.js/release/stable/5.0/standalone/* /var/www/html/
 os.system("sudo cp -r swotGB/gbjs.htm /var/www/html/swotgb/index.html")
 os.system("wget https://raw.githubusercontent.com/Invizabel/Web-EMU/refs/heads/main/index.html")
 os.system("sudo cp index.html /var/www/html/index.html")
-os.system("docker run -d --name=webrcade -p 80:80 -p 443:443 --restart always webrcade/webrcade:latest")
+os.system("docker run -d --name=webrcade -p 8080:80 -p 8443:443 --restart always webrcade/webrcade:latest")
