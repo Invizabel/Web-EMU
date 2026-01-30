@@ -89,4 +89,4 @@ for i in textures_previews:
         file.write(response)
 
 os.system("sudo cp -r assets /var/www/html/")
-os.system("sudo cp index.html /var/www/html/classic/")
+os.system("sudo cp -r * /var/www/html/classic/")
